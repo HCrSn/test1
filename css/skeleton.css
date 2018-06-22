@@ -402,12 +402,23 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
-
+#square-button{
+	display: none;
+}
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+	
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+	#square-button{
+		display: block;
+	}
+	#hori-button{
+		display: none;
+	}
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
@@ -420,11 +431,10 @@ there.
 
 /*My own code*/
 .big-title{text-align: center;}
-.slogan{width: 50%;}
-.futura-font{font-family: Futura, "Trebuchet MS", Arial, sans-serif}
-.center-w3  {
-    margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
+.slogan{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	margin-top: 3%;
 }
+.futura-font{font-family: Futura, "Trebuchet MS", Arial, sans-serif}
