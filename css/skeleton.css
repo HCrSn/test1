@@ -439,10 +439,19 @@ there.
 
 /*My own code*/
 .big-title{text-align: center;}
-.slogan{
-	width: 50%;
+.slogan-container{
 	text-align: center;
 	margin: auto;
 	margin-top: 3%;
 }
 .futura-font{font-family: Futura, "Trebuchet MS", Arial, sans-serif}
+#slogan{
+	/*width: 50%;
+	text-align: center;
+	margin: auto;
+	margin-top: 3%;*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
