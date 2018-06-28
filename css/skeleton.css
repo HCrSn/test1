@@ -443,6 +443,8 @@ there.
 	text-align: center;
 	margin: auto;
 	margin-top: 3%;
+	position: relative;
+    color: white;
 }
 .futura-font{font-family: Futura, "Trebuchet MS", Arial, sans-serif}
 #slogan{
