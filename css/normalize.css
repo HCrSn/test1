@@ -16,9 +16,13 @@ html {
  * Remove default margin.
  */
 
-body {
+/*body {
   margin: 0;
-}
+  /*background-color: #cccccc;
+  background-image: linear-gradient(#ffffff, #eee);
+  /*background-image: url("../images/grey-logo.svg");
+  background-color: #cccccc;
+}*/
 
 /* HTML5 display definitions
    ========================================================================== */
